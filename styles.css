@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+* {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.menu {
+    width: 1012px;
+    height: 100px;
+    border-color: black;
+    border-style: ridge;
+}
+
+.menu ul {
+    background-color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+.menu li {
+    list-style-type: none;
+    display: inline;
+    padding: 26px 16px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+.division {
+    border-color: black;
+    border-style: ridge;
+
+    display: flex;
+    background-color: white;
+    width: 1012px;
+    height: 650px;
+
+
+}
+
+.izquierdo {
+    background-color: white;
+    width: 65%;
+    height: 650px;
+
+}
+
+.derecho {
+    background-color: white;
+    width: 35%;
+    height: auto;
+    padding: 15px;
+}
+
+.derecho p {
+    margin-top: 250px;
+    margin-bottom: -215px;
+    font-weight: bold;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(0, 183, 255);
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+
+
+.img {
+    padding: 15px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-top: 25px;
+
+}
+
+.dimensionImg {
+    width: 650px;
+    height: 450px;
+}
+
+.piePag {
+    width: 1012px;
+    height: 40x;
+    background-color: #ffffff;
+    border-color: black;
+    border-style: ridge;
+    text-align: center;
+    color: rgb(160, 158, 158);
+
+}
+
+
+
+/*TABLAS*/
+.centro {
+    border-color: black;
+    border-style: ridge;
+    width: 1012px;
+    height: 650px;
+    background-color: white;
+}
+
+.centro p {
+    padding: 20px;
+
+}
+
+.tabla {
+    width: auto;
+    height: auto;
+    line-height: 250%;
+    font-size: small;
+    background-color: white;
+    padding: 20px;
+}
+
+.tabla table,
+th,
+td {
+    border: 2px solid rgb(196, 196, 196);
+    border-collapse: collapse;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tabla table {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+.tabla table td:nth-child(1) {
+    width: 10cm;
+
+}
+
+.tabla table td:nth-child(2) {
+    width: 3Cm;
+}
+
+
+/*TABLA 2*/
+
+.tabla2 {
+    width: 800px;
+    height: auto;
+    text-align: justify;
+   
+
+}
+
+.tabla2 table {
+    border-collapse: collapse;
+
+}
+
+.tabla2 td {
+    border-collapse: collapse;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+.tabla2 table td:nth-child(1) {
+    width: 10cm;
+
+
+}
+
+.tabla2 table td:nth-child(2) {
+    width: 10Cm;
+}
